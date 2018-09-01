@@ -98,7 +98,9 @@ From there, a user would make a request via your app, which would kick off the w
 
 Setting up the full OAuth2 authorization code grant workflow is beyond the scope of this lesson, but it is described well in the GitHub [docs](https://developer.github.com/v3/oauth/).
 
-Fortunately for us, GitHub also allows you to generate your own personal authorization token that we can use to give us authorized access to the API. And `fetch` makes it super easy to implement.
+Fortunately for us, GitHub also allows you to generate your own personal authorization token that we can use to give us authorized access to the API. Ad `fetch` makes it super easy to implement.
+
+
 
 To start, go to [https://github.com/settings/tokens](https://github.com/settings/tokens) and click "Generate new token." Name it "Learn.co" and check `repo` scope. Once you generate the token, make sure to copy and paste it somewhere, because once you leave that page, you won't be able to see it again. This is for your security — even if someone were to gain access to this page on your account, they still couldn't see your tokens.
 
